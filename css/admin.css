@@ -1,0 +1,99 @@
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+#header{
+  padding :0px
+}
+.menu {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}.menu:hover {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+
+}
+ .pad-left-0{
+     padding:0;
+ }
+.width-50{
+    width: 80%;
+}
+
+.padding-10px{
+    margin:10px
+}
+.fr{
+    float: right;
+}
+
+/*table category*/
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*mAdmanager*/
+
+.info{
+    font-size: 100px;
+    transition: 200ms;
+}
+.info:hover{
+    font-size: 90px;
+}
+span>a{
+    margin:10px;
+}
+#cate th{
+    text-align: left;
+}
+#cate select {
+    margin : 10px ;
+}
+#cate input{
+    margin : 10px ;
+}
+#cate button{
+    margin : 10px ;
+}
+
+#product div>div{
+
+    padding :10px
+}
+/*
+#product input{
+    margin : 10px ;
+}
+#product button{
+    margin : 10px ;
+}
+
